@@ -13,7 +13,10 @@ body {
     margin-bottom: 0 !important;
 }
 
-
+.input-field input[type=text]:not(.browser-default){
+    border: 1px solid white;
+    border-radius: 5px;
+}
 
 .car {
     background-image: url("../assets/images/taxi.jpg");
@@ -90,16 +93,22 @@ small {
     color:white;
 }
 
-
-@media all and (max-width:576px){
-
-
-
-
-
-
-
-
-
+label{
+    padding-left: 2.5em !important;
+    margin: 0 !important;
 }
+
+.frame{
+    border: 1px solid white;
+    border-radius: 3px;
+    text-align: center;
+    max-width: auto;
+    max-height: auto;
+}
+.map {
+    height:50vh; 
+    width: 75%;
+    padding: 2em;
+}
+
 
