@@ -39,8 +39,12 @@
                         <br>
                         <a class="waves-effect waves-light white black-text text-black btn">Regístrate</a>
                         <br>
-                        <hr>
-                        <div class="card-panel col l3 offset-l5 amber accent-3">O bien</div>
+                        <br>
+                        <div class="col l12 s12 offset-l1 offset-s2 amber accent-3 lines row">
+                            <hr class="col l2 s4">
+                            <p class="white-text text-white bien col l4 s2"> <strong>O bien</strong></p>
+                            <hr class="col l2 s4">
+                        </div>
                         <br>
                         <br>
                         <a class="waves-effect waves-light white black-text text-black btn">Conviértete en conductor</a>
@@ -53,123 +57,127 @@
         <div class="yellow row amber accent-3">
             <div class="boxy col l10">
                 <div class="phone col l5 m12 s12 offset-l1">
+                    <h4 class="hide-on-large-only white-text text-white center">La nueva app</h4>
                     <img class="responsive-img" src="assets/images/iPhone6Plus.png">
                 </div>
-                    <div class="white-text text-white col l6 m12 s12 hide-on-small-only amber accent-3">
-                        <p>
-                        <h5>Descarga la nueva app</h5>
-                            La versión actualizada de LabCar <br>
-                            está llena de nuevas funciones para <br>
-                            llegar a donde quieras aún mas fácil <br>
-                            y rápido. 
-                            <br>
-                            <br>
-                            Con solo tocar un botón, un auto <br>
-                            llega justo a tu ubicación. Súbete y <br>
-                            no te preocupes: tu conductor sabe <br> exactamente
-                            a dónde ir.
-                        </p>
-                        <div class="col l2"></div>
-                    </div>
-                </div>
-            </div> 
-            <section class="row">
-                <div class="back col l12">
-                    <div class="opaque right col l4 s6 offset-l8">
+                <div class="white-text text-white col l6 m12 s12 hide-on-small-only amber accent-3">
+                    <p>
+                    <h5>Descarga la nueva app</h5>
+                        La versión actualizada de LabCar <br>
+                        está llena de nuevas funciones para <br>
+                        llegar a donde quieras aún mas fácil <br>
+                        y rápido. 
                         <br>
                         <br>
-                        <h5 class="white-text text-white">Conduce cuando quieras</h5>
-                        <p class= "white-text text-white">LabCar es una opción flexible para alcanzar tus metas.</p>
-                        <a class="waves-effect waves-light amber accent-3 btn">Conviertete en conductor</a>
-                    </div>
+                        Con solo tocar un botón, un auto <br>
+                        llega justo a tu ubicación. Súbete y <br>
+                        no te preocupes: tu conductor sabe <br> exactamente
+                        a dónde ir.
+                    </p>
+                    <div class="col l2"></div>
                 </div>
-            </section> 
-        <section class="row amber accent-3">
-                <div class="col l5 m12 s12 offset-l1">
-                    <h4 class="white-text text-white">Tarifas</h4>
+                <div class="col l6 s8"><h5 class="hide-on-large-only white-text text-white">Llega a tu destino más rápido</h5>
+                </div>
+            </div>
+        </div> 
+        <section class="row">
+            <div class="back col l12">
+                <div class="opaque right col l4 s6 offset-l8">
                     <br>
-                    <p class="white-text text-white">Consulta las tarifas LabCar aquí</p>
-                        <form class="col l12 s12">
-                            <div class="row white-text text-white">
-                                    <div class="row">
-                                            <div class="input-field col l10 s12">
-
-                                                <input value="Ingrese su punto de partida" id="first_name2" type="text" class="validate white-text text-white">
-                                                <label class="active" for="first_name2"></label>
-                                            </div>
-                                            <div class="input-field col l10 s12">
-                                                    <input value="Ingrese su destino" id="first_name2" type="text" class="validate white-text text-white">
-                                                    <label class="active" for="first_name2"></label>
-                                                </div>
-                                            </div>
+                    <br>
+                    <h5 class="white-text text-white">Conduce cuando quieras</h5>
+                    <p class= "white-text text-white">LabCar es una opción flexible para alcanzar tus metas.</p>
+                    <a class="waves-effect waves-light amber accent-3 btn">Conviertete en conductor</a>
+                </div>
+            </div>
+        </section> 
+        <section class="row amber accent-3">
+            <div class="col l5 m12 s12 offset-l1">
+                <h4 class="white-text text-white">Tarifas</h4>
+                <br>
+                <p class="white-text text-white">Consulta las tarifas LabCar aquí</p>
+                    <form class="col l12 s12">
+                        <div class="row white-text text-white">
+                            <div class="row">
+                                <label class="col l2 s2 active white-text text-white aside" for="first_name2"><i class="fas fa-map-marker-alt inside"></i></label>
+                                <div class="input-field col l10 s10" id="left">
+                                <input value="Ingrese su punto de partida" id="first_name2" type="text" class="col l10 s10 validate white-text text-white">  
+                                </div>
                             </div>
                             <div class="row">
-                                    <a class="white black-text text-black btn col l5 m4 s6 offset-l3 s5">¡Trazar ruta!</a>
+                                <label class="col l2 s2 active white-text text-white aside" for="first_name2"><i class="fas fa-location-arrow inside"></i></label>
+                                <div class="input-field col l10 s10">
+                                <input value="Ingrese su destino" id="first_name2" type="text" class= "col l10 s10 validate white-text text-white">
+                                </div>
                             </div>
-                            
-                        </form>
-                    </div>
-                    <div class="col l6 s12">
-                        <div class="frame">
-                                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3732.891329302783!2d-103.38288658550225!3d20.673999686191603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ae727ff83e61%3A0x9a1f4570567fcb6f!2sCentro+Magno!5e0!3m2!1ses-419!2smx!4v1529351116085" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            <br>
+                            <div class="row">
+                                <a class="white black-text text-black btn col l4 s4 offset-l3 offset-s4">¡Trazar ruta!</a>
+                            </div>
+                            <br>
                         </div>
-                            
-                    </div>
-            </section> 
+                    </form>
+            </div>
+            <div class="col l6 s12">
+                <div class="frame">
+                    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3732.891329302783!2d-103.38288658550225!3d20.673999686191603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ae727ff83e61%3A0x9a1f4570567fcb6f!2sCentro+Magno!5e0!3m2!1ses-419!2smx!4v1529351116085" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section> 
         <footer class="row grey darken-3">
             <br>
-                <img src="assets/images/logoBlanco.png" alt="">
-                <br>
-                <br>
-                <div class="footer-list col l10 s12 offset-l1">
-                    <hr>
-                    <div class="col l3 icons hide-on-small-only">
-                        <i class="fab fa-facebook-f"></i>
-                        <i class="fab fa-twitter"></i>
-                        <i class="fab fa-linkedin-in"></i>
-                        <i class="fab fa-apple"></i>
-                        <i class="fas fa-play"></i> 
-                    </div>
-                    <div class="col l3 s6 names">
-                        <ul>
-                            <li><a href="">Viaja</a></li> <br>
-                            <li><a href="">Conduce</a></li> <br>
-                            <li><a href="">Ciudades</a></li> <br>
-                            <li><a href="">Países</a></li> <br>
-                            <li><a href="">Entregas</a></li> <br>
-                            <li><a href="">¿Cómo funciona?</a></li> <br>
-                            <li><a href="">Contáctanos</a></li> <br> 
-                            <li><a href="">Seguridad</a></li> <br>
-                        </ul>
-                    </div> 
-                    <div class="col l3 hide-on-small-only names">
-                        <ul>
-                            <li><a href="">Oportunidades</a></li> <br>
-                            <li><a href="">Nuestra historia</a></li> <br>
-                            <li><a href="">API de LabCar</a></li> <br>
-                            <li><a href="">Eventos</a></li> <br>
-                            <li><a href="">Desarroladores</a></li> <br>
-                            <li><a href="">Servicios</a></li> <br>
-                            <li><a href="">Laboratoria</a></li> <br>
-                            <li><a href="">Contáctanos</a></li> <br>
-                        </ul>
-                    </div>  
-                    <div class="col l3 repeat hide-on-large-only">
-                            <i class="fab fa-facebook-f"></i>
-                            <i class="fab fa-twitter"></i>
-                            <i class="fab fa-linkedin-in"></i>
-                            <i class="fab fa-apple"></i>
-                            <i class="fas fa-play"></i> 
-                        </div>
-                    <div class="col l3 s6">
-                        <br>
-                        <img class="responsive-img" src="assets/images/appstore.png" alt="">
-                        <img class="responsive-img" src="assets/images/enBadgeWebGeneric.png" alt="">
-                        <br>
-                    </div>
-                    <br>  
+            <img src="assets/images/logoBlanco.png" alt="">
+            <br>
+            <br>
+            <div class="footer-list col l10 s12 offset-l1">
+                <hr>
+                <div class="col l3 icons hide-on-small-only hide-on-med-and-down">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                    <i class="fab fa-apple"></i>
+                    <i class="fas fa-play"></i> 
+                </div>
+                <div class="col l3 s6 names">
+                    <ul>
+                        <li><a href="">Viaja</a></li> <br>
+                        <li><a href="">Conduce</a></li> <br>
+                        <li><a href="">Ciudades</a></li> <br>
+                        <li><a href="">Países</a></li> <br>
+                        <li><a href="">Entregas</a></li> <br>
+                        <li><a href="">¿Cómo funciona?</a></li> <br>
+                        <li><a href="">Contáctanos</a></li> <br> 
+                        <li><a href="">Seguridad</a></li> <br>
+                    </ul>
+                </div> 
+                <div class="col l3 hide-on-small-only names">
+                    <ul>
+                        <li><a href="">Oportunidades</a></li> <br>
+                        <li><a href="">Nuestra historia</a></li> <br>
+                        <li><a href="">API de LabCar</a></li> <br>
+                        <li><a href="">Eventos</a></li> <br>
+                        <li><a href="">Desarroladores</a></li> <br>
+                        <li><a href="">Servicios</a></li> <br>
+                        <li><a href="">Laboratoria</a></li> <br>
+                        <li><a href="">Contáctanos</a></li> <br>
+                    </ul>
                 </div>  
-                <div class="col 10 s6 offset-l1"><p><small>&copy 2017 LabCar Thecnologies Inc.</p></div>   
+                <div class="col l3 repeat hide-on-large-only">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                    <i class="fab fa-apple"></i>
+                    <i class="fas fa-play"></i> 
+                </div>
+                <div class="col l3 s6 hide-on-med-only">
+                    <br>
+                    <img class="responsive-img" src="assets/images/appstore.png" alt="">
+                    <img class="responsive-img" src="assets/images/enBadgeWebGeneric.png" alt="">
+                    <br>
+                </div>
+                <br>  
+            </div>  
+            <div class="col 10 s6 offset-l1"><p><small>&copy 2017 LabCar Thecnologies Inc.</p></div>   
         </footer>
     <script src="js/app.js"></script>
     <script src="js/materialize.min.js"></script>

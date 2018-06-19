@@ -17,7 +17,14 @@ body {
     border: 1px solid white;
     border-radius: 5px;
 }
+.lines{
+    display: inline-block;
+}
 
+.bien{
+    text-align: center;
+    margin-bottom: 1em;
+}
 .car {
     background-image: url("../assets/images/taxi.jpg");
     width: 100%;
@@ -31,8 +38,7 @@ body {
 
 hr{
     color: white;
-    font-weight: 400;
-    text-decoration: none;
+    text-decoration:none;
 }
 
 .btn {
@@ -109,6 +115,21 @@ label{
     height:50vh; 
     width: 75%;
     padding: 2em;
+}
+
+.center>a {
+    width:15em;
+}
+
+.aside{
+    font-size: 1.5em; 
+    text-align: center;
+}
+
+.inside{
+    margin-top:1.5em;
+    padding-right: 1em;
+    
 }
 
 
